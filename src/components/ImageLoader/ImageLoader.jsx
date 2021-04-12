@@ -30,7 +30,7 @@ const ImageLoader = ( props ) => {
                 setImageList(prevState => {
                     return [
                         ...prevState,
-                        <img className={classes.Image} id="image1" src={objectURL} />
+                        <img className={classes.Image} id="image1" src={objectURL} alt="pic1"/>
                     ]
                 })
         }).catch(err => console.log(err));
@@ -43,7 +43,7 @@ const ImageLoader = ( props ) => {
                 setImageList(prevState => {
                     return [
                         ...prevState,
-                        <img className={classes.Image} id="image2" src={objectURL} />
+                        <img className={classes.Image} id="image2" src={objectURL} alt="pic2"/>
                     ]
                 })
         
@@ -56,7 +56,7 @@ const ImageLoader = ( props ) => {
                 setImageList(prevState => {
                     return [
                         ...prevState,
-                        <img className={classes.Image} id="image3" src={objectURL} />
+                        <img className={classes.Image} id="image3" src={objectURL} alt="pic3"/>
                     ]
                 })
         }).catch(err => console.log(err));
